@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RR",
+    "RR"
+  ],
+  "key": {
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": {
+    "id": "bloodmod:blood_bucket",
+    "count": 1
+  }
+}

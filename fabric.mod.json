@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bloodmod",
+  "version": "1.0.0",
+  "name": "Blood Mod",
+  "description": "A bucket of blood. Mobs that touch it rise again as undead pets.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.bloodmod.BloodMod"],
+    "client": ["com.example.bloodmod.BloodModClient"]
+  },
+  "accessWidener": "bloodmod.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
